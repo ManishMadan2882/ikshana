@@ -34,7 +34,7 @@ function PatientInfo(props){
         <table className="text-left personal" >
             <tr>
                 <th>Check-in</th>
-                <td>{props.obj.Checkin}</td>
+                <td>{props.obj.personalInfo.Checkin}</td>
             </tr>
             <tr>
                 <th>Department</th>
@@ -42,11 +42,11 @@ function PatientInfo(props){
             </tr>
             <tr>
                 <th>Room</th>
-                <td>{props.obj.personalInfo.Room}</td>
+                <td>{props.obj.personalInfo.room}</td>
             </tr>
             <tr>
                 <th>Bed</th>
-                <td>{props.obj.personalInfo.Bed}</td>
+                <td>{props.obj.personalInfo.bed}</td>
             </tr>
         </table>
       </div>

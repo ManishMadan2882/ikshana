@@ -73,7 +73,8 @@ function Login (){
                   <input type="password" onChange={handlePassword} value={password} name="password" id="password" placeholder="Your password" class="w-full px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 dark:bg-gray-700 dark:text-white dark:placeholder-gray-500 dark:border-gray-600 dark:focus:ring-gray-900 dark:focus:border-gray-500" />
                 </div>
                 <div class="mb-6">
-                  <button type="button" onClick={handleSubmit} class="w-full px-3 py-4 text-white bg-indigo-500 rounded-md hover:bg-indigo-600 focus:outline-none duration-100 ease-in-out">Sign in</button>
+                <a href='/doctor'>
+                  <button type="button" class="w-full px-3 py-4 text-white bg-indigo-500 rounded-md hover:bg-indigo-600 focus:outline-none duration-100 ease-in-out">Sign in</button></a>
                 </div>
                 <p class="text-sm text-center text-gray-400">
                   Don&#x27;t have an account yet? 

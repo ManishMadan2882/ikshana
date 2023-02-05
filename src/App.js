@@ -16,10 +16,9 @@ function App() {
       <Side/>
       <Navbar/>
       <Routes>
-      <Route path="/doctor" element={<Worker/>}/> 
-      <Route path="/dashboard/1" element={<Patient/>}/> 
-      <Route path="/dashboard/2" element={<Patient/>}/> 
-      <Route path="/dashboard/3" element={<Patient/>}/>  
+      <Route path="/" element={<Doctor/>}/> 
+      <Route path="/dashboard/:room" element={<Patient/>}/> 
+    
       <Route path="/login" element={<Login/>}/>  
       <Route path="/register" element={<Register/>}/> 
       <Route path="/doctor" element={<Doctor/>}/> 
