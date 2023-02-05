@@ -30,7 +30,7 @@ td,th,tr{
 @media screen and (max-width: 600px) {
 
   body {
-    background-color: lightgreen;
+   
     width:auto;
     overflow: hidden;
   }
