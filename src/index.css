@@ -34,9 +34,7 @@ td,th,tr{
     width:auto;
     overflow: hidden;
   }
-  #side{
-    display: none;
-  }
+  
   *{
     margin: 0;
     width: max-content;
